@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite">
+    <test name="LoginParam">
+    <parameter name="username" value="Admin"></parameter>
+    <parameter name="password" value="admin123"></parameter>
+    <classes>
+        <class name="com.urlprojectone.LoginExcel" />
+    </classes>
+    </test>
+</suite>
