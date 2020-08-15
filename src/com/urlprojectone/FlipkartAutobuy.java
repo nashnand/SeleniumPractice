@@ -17,8 +17,8 @@ public class FlipkartAutobuy {
         /*driver.get("https://www.flipkart.com/poco-m2-pro-two-shades-black-64-gb/p/itmaf67e90291adf?pid=MOBFT7MKC9DMG2PU&lid=LSTMOBFT7MKC9DMG2PUNJUWXP&marketplace=FLIPKART&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_5_na_na_na&fm=SEARCH&iid=65456a78-7575-40de-b6f4-46a88f09aa09.MOBFT7MKC9DMG2PU.SEARCH&ppt=sp&ppn=sp&ssid=tb1wtu62hs0000001596550382764&qH=b83349d0f5338c62");*/
         driver.get("https://www.flipkart.com/oppo-a5s-gold-64-gb/p/itmffhgzsqaczrn4?pid=MOBFHHSQH9AHZRAW&lid=LSTMOBFHHSQH9AHZRAWLEGR9K&marketplace=FLIPKART&srno=b_1_1&otracker=clp_banner_2_6.bannerX3.BANNER_mobiles-phone-big-saving-days-aug-929s-9jwj-store_6Z4137DHABET&fm=neo%2Fmerchandising&iid=2ff55274-6d46-4785-81c8-02f79c7688b0.MOBFHHSQH9AHZRAW.SEARCH&ppt=browse&ppn=browse&ssid=yyb7nwoy1c0000001597039650771");
         driver.findElement(By.xpath("//a[contains(text(),'Login')]")).click();
-        driver.findElement(By.xpath("//input[@class='_2zrpKA _1dBPDZ']")).sendKeys("nashnand@gmail.com");
-        driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Wipro@123");
+        driver.findElement(By.xpath("//input[@class='_2zrpKA _1dBPDZ']")).sendKeys("xxxxx@gmail.com");
+        driver.findElement(By.xpath("//input[@type='password']")).sendKeys("xxxxxx");
         driver.findElement(By.xpath("//button[@class='_2AkmmA _1LctnI _7UHT_c']//span[contains(text(),'Login')]")).click();
         WebDriverWait wait= new WebDriverWait(driver,60);
         System.out.println("Time before"+java.time.LocalDateTime.now());
