@@ -9,6 +9,7 @@ public class Fibonacci {
    public static void main(String[] args) {
 
        ArrayList<Integer> list = new ArrayList<Integer>();
+       /*List<Integer> arraylist=new ArrayList<>();*/
        list.add(0);
        list.add(1);
        int Secondvalue=1,Firstvalue=0;
